@@ -1,11 +1,21 @@
 <!DOCTYPE html>
-<html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <title>初めてのホームページ</title>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invader Game</title>
+    <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="/index.css">
 </head>
-<body>
-  <h1>こんにちは、世界！</h1>
-  <p>kamiedulabo：これはindex.htmlのサンプルです。</p>
+  <body>
+    <div id="game-container">
+      <canvas id="game-canvas"></canvas>
+      <div id="message-container">
+        <h1 id="message"></h1>
+        <p id="sub-message"></p>
+      </div>
+    </div>
+    <script type="module" src="index.tsx"></script>
+  <script type="module" src="/index.tsx"></script>
 </body>
 </html>
